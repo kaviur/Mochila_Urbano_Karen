@@ -1,0 +1,31 @@
+# Configuración inicial
+git config --global user.name "Tu Nombre"      # Configura tu nombre de usuario
+git config --global user.email "tu@email.com"  # Configura tu dirección de correo electrónico
+
+# Creación y clonación de repositorios
+git init                                       # Inicializa un nuevo repositorio local
+git clone <URL>                                # Clona un repositorio remoto existente
+
+# Trabajo con ramas
+git branch                                     # Lista las ramas disponibles en el repositorio
+git branch <nombre_rama>                       # Crea una nueva rama
+git checkout <nombre_rama>                     # Cambia a una rama existente
+git checkout -b <nombre_rama>                  # Crea y cambia a una nueva rama
+git merge <nombre_rama>                        # Fusiona una rama con la rama actual
+git branch -d <nombre_rama>                    # Elimina una rama
+git log                                      # Muestra el historial de commits
+git log --oneline                            # Muestra el historial de commits en una sola línea
+git diff                                     # Muestra las diferencias entre los cambios sin preparar
+git diff --staged                            # Muestra las diferencias entre los cambios preparados y el último commit
+git reset HEAD <archivo>                     # Quita un archivo de la zona de preparación (staging)
+git checkout -- <archivo>                    # Descarta los cambios en un archivo (restaura el estado anterior)
+git revert <ID_commit>                        # Crea un nuevo commit que deshace los cambios de un commit específico
+git reset --hard <ID_commit>                  # Elimina commits y cambia la rama actual al commit especificado
+git remote                                   # Muestra los repositorios remotos configurados
+git remote add origin <URL>                  # Agrega un repositorio remoto con un nombre "origin"
+git push origin <rama>                       # Sube los cambios locales a un repositorio remoto
+git pull origin <rama>                       # Descarga los cambios remotos y los fusiona con la rama actual
+git fetch                                    # Descarga los cambios remotos sin fusionar automáticamente
+git tag                                      # Lista todas las etiquetas (tags) disponibles
+git tag -a <nombre_tag> -m "Mensaje"         # Crea una etiqueta anotada
+git push origin <nombre_tag>                 # Sube una etiqueta al repositorio remoto
