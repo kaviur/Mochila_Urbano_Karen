@@ -1,0 +1,14 @@
+DIRECCIONES IP DE MI MAQUINA VIRTUAL
+
+Ip Publica-----10.0.2.15
+Direccion MAC------08:00:27:77:60:59
+
+DIFERENCIAS ENTRE LA IP PRIVADA Y LA IP P[UBLICA
+
+La ip publica es aquella direccion a traves de la cual nos comunicamos hacia el resto de las 
+redes de internet, la asigna el ISP, proveedor de servicios de internet con el objetivo de  
+identificar nuestra red y comunicarnos con el resto de las redes en internet. Por otra parte 
+las ips privadas sirven para identificar dispositivos conectado a nuestra red privada y no es 
+accesible directamente desde internet, son utilizadas para identificar y comunicarse dentro 
+del ambito de la red local.
+
