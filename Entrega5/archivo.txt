@@ -1,0 +1,2 @@
+Hola, me conecté con telnet desde mi máquina local linux a mi máquina virtual
+qué cool es esto! gracias Vero =)
