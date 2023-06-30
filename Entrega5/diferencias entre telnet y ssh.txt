@@ -1,0 +1,32 @@
+VENTAJAS DE TELNET
+1. Es fácil de usar y configurar.
+2. Nos permite acceder y manejar de forma remota dispositivos que acepten este protocolo como si estuviéramos trabajando
+   directamente en el dispositivo.
+
+DESVENTAJAS DE TELNET
+1. No es seguro. Al no haber un proceso de encriptación de datos, la información está expuesta ante cualquiera que pueda vulnerar la
+   comunicación.
+2. No es eficiente para transmitir archivos dado a que está diseñado para transmitir datos en texto plano.
+
+VENTAJAS DE SSH
+1. La comunicación es más segura debido a que los datos son encriptados.
+2. Además de facilitar una conexion remota segura, facilita el intercambio de archivos seguro entre sistemas a través de diferentes
+   protocolos como el SFTP (SSH File System Protocol).
+3. Admite una variedad de métodos de autenticación.
+
+DESVENTAJAS DE SSH
+1. Configuración más compleja.
+2. No todos los sistemas o dispositivos son compatibles, por lo que pueden requerir una instalación adicional de software.
+
+DIFERENCIAS ENTRE TELNET Y SSH
+SSH brinda una comunicación segura mediante el uso de encriptación de datos.  Además, SSH ofrece opciones avanzadas de autenticación,
+como el uso de claves públicas y autenticación de dos factores. Telnet no ofrece seguridad. Los datos se transmiten en texto plano, 
+lo que significa que no están encriptados y son visibles para cualquiera que pueda interceptar la comunicación, por otra parte, 
+Telnet carece de mecanismos sólidos de autenticación y puede ser vulnerable a ataques de escucha y suplantación de identidad.
+
+SSH Además del acceso remoto seguro, ofrece características adicionales, como la transferencia segura de archivos a través de SCP (Secure Copy) 
+y SFTP (SSH File Transfer Protocol). Estas funciones permiten el intercambio seguro de archivos entre sistemas y son ampliamente utilizadas en 
+entornos de red mientras que Telnet se centra principalmente en el acceso remoto a dispositivos y servidores. No proporciona funciones avanzadas 
+de transferencia de archivos y su funcionalidad se limita a la ejecución de comandos y configuraciones en el servidor remoto, es por ello que SSH 
+se ha convertido en el estándar preferido para el acceso remoto seguro y la transferencia de archivos, mientras que Telnet se ha vuelto menos común 
+debido a sus limitaciones de seguridad.
