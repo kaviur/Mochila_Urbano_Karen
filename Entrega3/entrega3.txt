@@ -1,0 +1,20 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?.
+Esto se debe a las diferencias de arquitectura y características de cada sistema opetarivo. Cada SO posee su propia API (Interfaz de Programación
+de Aplicaciones) y su propio conjunto de bibliotecas preinstaladas, incluso en un mismo SO como Linux, existen gran variedad de distribuciones que 
+se componen del núcleo de Linux y de otros componentes de software, como bibliotecas, herramientas y aplicaciones lo que hace a cada una de estas 
+distribuciones única y singular. Por otra parte, tenemos el hecho de que el software es mayormente un negocio liderado por diferentes empresas, lo que 
+conlleva a que ciertos lenguajes creados por diferentes empresas tengan mayor compatibilidad en los dispositivos y SO creados por ellos mismos como 
+es el caso de Microsoft o Apple.
+
+¿Qué tipo de máquina virtual es virtualBox?
+VirtualBox es una máquina virtual de tipo hipervisor de software. Funciona como una capa de virtualización que se ejecuta en un sistema operativo 
+anfitrión.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las
+demás? ¿por qué?
+No se rompe porque cada VM es independiente de las demás, se le configura su propio entorno tal como su SO, aplicaciones, bibliotecas, herramientas 
+y demás configuraciones necesarias para cumplir sus objetivos de forma totalmente independiente. Es por ello que se usa para compartir entornos ya 
+configurados con el objetivo de asegurar el correcto funcionamiento de un sistema específico. Por ejemplo, en el caso de ser creada con el 
+objetivo de correr una API de python, node.js o java, en cada caso se requerirá una configuración diferente cuyo ambiente nos asegure que va a correr 
+sin problemas.
